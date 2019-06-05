@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/color_border"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin" >
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textStyle"
+        android:gravity="center"
+        android:text="@string/hello" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:background="#09000000"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/widget_element_margin"
+                android:padding="@dimen/widget_element_margin"
+                android:src="@drawable/statefull_image_view" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="#00000000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtOnUpdateCount"
+                style="@style/textStyle2"
+                android:text="@string/onupdatecall_init" />
+
+            <TextView
+                android:id="@+id/txtClickCount"
+                style="@style/textStyle2"
+                android:text="@string/click_init" />
+
+            <TextView
+                android:id="@+id/txtForceUpdateCount"
+                style="@style/textStyle2"
+                android:text="@string/forceupdatecall_init" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

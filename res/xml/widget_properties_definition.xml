@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_layout"
+    android:label="@string/hello"
+    android:minHeight="40dip"
+    android:minResizeHeight="40dip"
+    android:minResizeWidth="180dip"
+    android:minWidth="180dip"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="keyguard|home_screen" >
+
+    <!-- Minimal time is 30 mn 30*60*1000 = 1 800 000 -->
+
+</appwidget-provider>

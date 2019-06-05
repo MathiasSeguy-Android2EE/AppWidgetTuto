@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello AppWidgetTuto</string>
+    <string name="title">Hello AppWidgetTuto (%1$d)</string>
+    <string name="app_name">AppWidgetTuto</string>
+    <string name="widget_name">AppWidget Tuto</string>
+    <string name="onupdatecall_init">onUpdate called 0 times</string>
+    <string name="onupdatecall">onUpdate called: %1$d</string>
+    <string name="click_init">number of click: 0</string>
+    <string name="click">number of click: %1$d</string>
+    <string name="forceupdatecall_init">force update called 0 times</string>
+    <string name="forceupdatecall">force update called: %1$d</string>
+    <string name="INTENT_CLICK1">com.android2ee.tuto.appwidget.sample1.click1</string>
+    <string name="INTENT_UPDATE">com.android2ee.tuto.appwidget.sample1.update</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
